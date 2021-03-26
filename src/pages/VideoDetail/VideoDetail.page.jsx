@@ -64,7 +64,7 @@ const VideoDetail = ({ location }) => {
             id="player"
             videoId={getVideoId(video)}
             type="text/html"
-            src={`http://www.youtube.com/embed/${getVideoId(video)}?enablejsapi=1`}
+            src={`https://www.youtube.com/embed/${getVideoId(video)}?enablejsapi=1`}
             frameBorder="0"
           />
         </IFrameContainer>
