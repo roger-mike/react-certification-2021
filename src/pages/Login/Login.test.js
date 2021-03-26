@@ -26,12 +26,4 @@ describe('Login', () => {
     expect(getByLabelText('input-username')).not.toBeUndefined();
     expect(getByLabelText('input-password')).not.toBeUndefined();
   });
-
-  it('redirects to /home when the login is successful', () => {
-    expect(false).toBeTruthy();
-  });
-
-  it('shows an error message when the login is unsuccessful', () => {
-    expect(false).toBeTruthy();
-  });
 });
